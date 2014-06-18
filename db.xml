@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+    <table name="ounziwLoginHistory">
+        <field name="rID" type="I">
+            <key ></key>
+            <primary ></primary>
+            <autoincrement ></autoincrement>
+            <unsigned ></unsigned>
+        </field>
+        <field name="uID" type="I">
+        </field>
+        <field name="loginTime" type="TS">
+        </field>
+        <field name="IP" type="C" size="40">
+        </field>
+        <field name="userAgent" type="X">
+        </field>
+    </table>
+</schema>
